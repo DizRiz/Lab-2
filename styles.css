@@ -114,18 +114,15 @@ footer > a, h6 {
 }
 .input {
   border: 5px solid grey;
-  border-radius: 3%;
-  width: 70%;
-  height: 60vh;
-  position: relative;
-  top: 50px;
-  left: 50px;
+  border-radius: 10px;
+  width: 80%;
+  height: 60%;
   padding: 20px;
   background-color: rgb(219, 234, 248);
 }
-input:not(.submit){
-    position: absolute;
-    left: 100px;
+.name, .email, .text{
+    display: flex;
+    align-items: center;
     box-shadow: 1px 1px 1px 1px grey;
 }
 .whatsapp {
